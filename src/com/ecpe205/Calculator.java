@@ -4,15 +4,15 @@ import java.util.Locale;
 
 public class Calculator {
 
-    /*
+    
     //exponent
     public double sum (double a, double b){
         return Math.pow(a,b);
     }
-    */
+    
 
     //factorial
-    /*
+    
     public double sum (double a, double b){
         for(int i = 1; i <= b; ++i)
         {
@@ -21,7 +21,7 @@ public class Calculator {
         return a;
     }
 
-     */
+     
     public String Palindrome (String x){
         String ascStr = "";
         int ascLength = x.length();
