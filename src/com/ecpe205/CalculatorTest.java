@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CalculatorTest {
 
 
-    /*
+    
     //exponent
     @ParameterizedTest
     @ValueSource(ints = {1,2,3,4,5})
@@ -23,9 +23,9 @@ class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(value, calc.sum(value, 1));
     }
-    */
+    
     //factorial
-/*
+
         @Test
     void testofFactorial() {
         Calculator calc = new Calculator();
@@ -51,7 +51,7 @@ class CalculatorTest {
         }
     }
 
-*/
+
 
     @ParameterizedTest
     @ValueSource(strings = {"wow","refer", "civic", "racecar", "kayak" })
