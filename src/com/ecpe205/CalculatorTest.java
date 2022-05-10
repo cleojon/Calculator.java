@@ -51,8 +51,7 @@ class CalculatorTest {
         }
     }
 
-
-
+    //palindrome
     @ParameterizedTest
     @ValueSource(strings = {"wow","refer", "civic", "racecar", "kayak" })
     @DisplayName("Palindrome")
